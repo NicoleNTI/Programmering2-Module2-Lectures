@@ -5,6 +5,7 @@ def readCSV(path:str) -> dict:
     fruits = {}
     file = csv.reader(open(path, "r", encoding="UTF8"))
     for row in file:
+        print(row)
         swe, eng = row
         fruits[swe] = eng
     return fruits

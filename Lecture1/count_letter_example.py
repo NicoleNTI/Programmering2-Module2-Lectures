@@ -1,6 +1,7 @@
 a_counter = 0
 filnamn = "Programmering2-Module2-Lectures/Lecture1/PythonPoem.txt"
 infil = open(filnamn,"r", encoding="utf8")
+
 for rad in infil:
     for bokstav in rad:
         if bokstav == "a":
